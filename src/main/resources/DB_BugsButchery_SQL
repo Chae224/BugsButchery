@@ -1,0 +1,25 @@
+CREATE TABLE family(
+family_id SERIAL,
+family_name VARCHAR(100),
+family_value INTEGER,
+PRIMARY KEY (family_id)
+);
+
+CREATE TABLE territory(
+territory_id SERIAL,
+territory_name VARCHAR(100),
+territory_value INTEGER,
+territory_family INTEGER, 
+PRIMARY KEY (territory_id),
+FOREIGN KEY (territory_family) REFERENCES family(family_id)
+);
+
+CREATE TABLE frontier(
+territory_id INTEGER,
+frontier_id INTEGER,
+PRIMARY KEY (territory_id, frontier_id),
+FOREIGN KEY (frontier_id) REFERENCES territory(territory_id),
+FOREIGN KEY (territory_id) REFERENCES territory(territory_id)
+);
+
+

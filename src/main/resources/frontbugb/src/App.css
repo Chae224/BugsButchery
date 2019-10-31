@@ -1,0 +1,361 @@
+html{
+  font-size: 62,5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Chelsea Market', cursive, 'Sedgwick Ave','Indie Flower',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #99d3c8;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.contenantMap{
+  display: flex;
+  height: 100vh;
+}
+
+/*------ général ------*/
+
+h1{
+  font-family: 'Chelsea Market', cursive, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5rem;
+  color: #e13e1b;
+  text-shadow: 5px 2px 4px rgba(131,131,131,0.61);
+}
+
+h2{
+  font-family: 'Chelsea Market', cursive, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4rem;
+  color: #e13e1b;
+  text-shadow: 5px 2px 4px rgba(131,131,131,0.61);
+}
+
+input{
+  border-radius: 3rem;
+  border: solid;
+  border-width: 0px;
+  border-color: rgb(197, 197, 197);
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-shadow: 8px 0px 18px -14px rgba(23,23,23,1);
+  -moz-box-shadow: 8px 0px 18px -14px rgba(23,23,23,1);
+  box-shadow: 8px 0px 18px -14px rgba(23,23,23,1);
+}
+
+.button{
+  height: 2rem;
+  font-family: 'Chelsea Market', cursive, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
+  background: #e13e1b;
+  border-radius: 3rem;
+  -webkit-box-shadow: 8px 6px 18px -14px rgba(23,23,23,1);
+  -moz-box-shadow: 8px 6px 18px -14px rgba(23,23,23,1);
+  box-shadow: 8px 6px 18px -14px rgba(23,23,23,1);
+}
+
+.button:hover{
+  padding-top: 8px;
+  border-radius: 3rem;
+  border: solid;
+  border-width: 2px;
+  border-color:  #e13e1b;
+  background:none;
+  color:  #e13e1b;
+}
+
+.infosPlayer {
+  background-color: azure;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.infos{
+  /*background-color: rgb(41, 114, 114);*/
+  border-radius: 1.5rem;
+  overflow: auto;
+  position: relative; bottom:0;
+  -webkit-box-shadow: inset 2px 0px 16px 15px #99d3c8;
+  -moz-box-shadow: inset 2px 0px 16px 15px #99d3c8;
+  box-shadow: inset 2px 0px 16px 15px #99d3c8;
+}
+
+h6 {
+  font-family: 'Chelsea Market', cursive, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  color: #e13e1b;
+  margin: 0;
+}
+
+button{
+  border-radius: 1rem;
+}
+
+/*--------- login ----------*/
+#pageLogin{
+  text-align: center;
+}
+#pageLogin h1{
+  margin-top: 10%;
+}
+
+#login{
+  width: 30rem;
+  height: 15rem;
+  /*background-color: rgb(231, 231, 231);*/
+  margin: auto;
+  margin-top: 4%;
+  padding: 2rem;
+  display: block;
+  justify-content: center;
+}
+
+#login input {
+  width: 15rem;
+  height: 1.5rem;
+}
+
+#pageLogin div .button{
+  margin:auto;
+  width: 7rem;
+  height: 2rem;
+}
+#pageLogin div .button:hover{
+  width: 7rem;
+  height: 2rem;
+}
+
+/*------- Sas -------*/
+.contenant {
+  width: 30rem;
+  height: 40rem;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.contenant h1{
+  margin: 4rem;
+}
+
+.contenant h2{
+  margin-top: 15%;
+}
+
+.contenant h6 {
+  margin-top: 4rem;
+}
+
+.contenant p {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.contenant .button{
+  width: 7rem;
+  height: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.contenant .infosPlayer{
+  width: 17rem;
+  height: 12rem;
+  margin: auto;
+}
+
+.infos{
+  width: 20rem;
+  height: 9rem;
+  margin: auto;
+  margin-top: 10%;
+  padding-top: 5%;
+}
+
+
+/*------- Fu -------*/
+
+#fu{
+  width: 20rem;
+  height: 20rem;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.gif{
+  width: 16rem;
+  height: 13rem;
+  background: url('pages/tenor.gif') no-repeat;
+  background-size: over;
+  margin: auto;
+  border-radius: 3rem;
+  border: solid;
+  border-width: 5px;
+  border-color:#e13e1b;
+  -webkit-box-shadow: 3px 4px 28px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 3px 4px 28px 0px rgba(0,0,0,0.3);
+  box-shadow: 3px 4px 28px 0px rgba(0,0,0,0.3);
+}
+
+
+/*------- MapGame -------*/
+
+.carte{
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  width: 75rem;
+  height: 80vh;
+  /*border: solid;*/
+  margin: 2rem;
+  padding: 2rem;
+  background-color: cornsilk;
+}
+
+#aubergine{
+  background-color: blueviolet;
+  grid-area: 1 / 1 / 4 / 5;
+  border-radius: 18rem 26rem 26rem 18rem;
+}
+
+#kiwi{
+  background-color: rgb(88, 59, 45);
+  grid-area: 1 / 6 / 4 / 7;
+  border-radius: 3.5rem;
+}
+
+#foie_gras{
+  background-color: rgb(243, 213, 168);
+  grid-area: 8 / 4 / 11 / 7;
+  border-radius: 2rem;
+  border: solid;
+  border-width: 2ex 1.25ex 0.5ex;
+  border-color:#e4b638;
+}
+
+#epinards{
+  background-color: olive;
+  grid-area: 5 / 4 / 7 / 6;
+  border-radius: 3.5rem 0.2rem;
+}
+
+#jambon{
+  background-color: indianred;
+  grid-area: 7 / 8 / 11 / 11;
+  border-radius: 4rem;
+}
+
+#framboise{
+  background-color: darkred;
+  grid-area: 5 / 1 / 7 / 3;
+  border-radius: 4rem;
+}
+
+#abricot{
+  background-color: darkorange;
+  grid-area: 8 / 1 / 11 / 3;
+  border-radius: 7rem;
+  padding-top: 20%;
+}
+
+
+#saucisse{
+  background-color: lightsalmon;
+  grid-area: 1 / 8 / 3 / 11;
+  border-radius: 4rem;
+}
+
+#poivron{
+  background-color: orangered;
+  grid-area: 4 / 7 / 6 / 11;
+  border-radius: 4rem 1rem;
+}
+
+.contenantMap p{
+  font-family:'Indie Flower', cursive;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.manette{
+  width: 30rem;
+  /*background-color: blue;*/
+  padding: 1rem;
+}
+
+.infosPlayer{
+  width: 25rem;
+  height: 7rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.infos{
+  width: 26rem;
+  height: 6rem;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /*padding-top: 5%;*/
+}
+
+.action{
+  background: rgb(200, 230, 220);
+  width: 21rem;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  border: solid;
+  border-width: 2px;
+  border-color:  rgb(228, 241, 237);
+  -webkit-box-shadow: 8px 6px 18px -14px rgba(23,23,23,1);
+  -moz-box-shadow: 8px 6px 18px -14px rgba(23,23,23,1);
+  box-shadow: 8px 6px 18px -14px rgba(23,23,23,1);
+  
+}
+
+/*-----  Territory -----*/
+
+.territory{
+  text-align: center;
+  padding: 1rem;
+}
+
+.territory .nbFourmis{
+  font-family: 'Chelsea Market';
+  color: aliceblue;
+  text-shadow: 5px 2px 4px rgba(131,131,131,0.61);
+}
+
+.territory .textMap{
+  font-family: 'Chelsea Market';
+  color: rgba(0,0,0,0.7);
+}
+
+.territory .proprio{
+  font-family: 'Chelsea Market';
+  color: black;
+}
